@@ -27,4 +27,8 @@ export class HomePage {
   navToProductDetail(product:Product) {
     this.navCtrl.push("ProductPage", {product:product});
   }
+
+  createProduct() {
+    this.navCtrl.push("ProductPage", {product:{}});
+  }
 }

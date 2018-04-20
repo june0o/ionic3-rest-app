@@ -1,24 +1,30 @@
 {
-  "products":[
+  "products": [
     {
-      "id":1,
-      "name":"컴퓨터",
-      "cost":"2000",
-      "quantity":"10"
+      "id": 1,
+      "name": "컴퓨터",
+      "cost": "2000",
+      "quantity": "14"
     },
     {
-      "id":2,
-      "name":"자동차",
-      "cost":"3000",
-      "quantity":"50"
+      "id": 2,
+      "name": "자동차",
+      "cost": "3000",
+      "quantity": "50"
+    },
+    {
+      "name": "orange",
+      "cost": "2000",
+      "quantity": "52",
+      "id": 3
     }
   ],
-  "customers":[
+  "customers": [
     {
-      "id":10,
-      "name":"apple",
-      "age":"27",
-      "addr":"Seoul"
+      "id": 10,
+      "name": "apple",
+      "age": "27",
+      "addr": "Seoul"
     }
   ]
 }
